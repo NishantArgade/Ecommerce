@@ -109,6 +109,8 @@ const ProductDetails = () => {
     precision: 0.5,
   };
 
+  console.log(products);
+
   return (
     <Fragment>
       {loading ? (
@@ -249,7 +251,7 @@ const ProductDetails = () => {
             <p className="noReviews">No Reviews Yet</p>
           )}
 
-          {products && (
+          {products.length>1 &&  (
             <div className="RecommandedProducts">
               <h2>Recommanded Products</h2>
               <div>
