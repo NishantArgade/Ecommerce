@@ -249,19 +249,18 @@ const ProductDetails = () => {
             <p className="noReviews">No Reviews Yet</p>
           )}
 
-          {
+          {products && (
             <div className="RecommandedProducts">
               <h2>Recommanded Products</h2>
               <div>
-                {products &&
-                  products
-                    .filter((prod) => prod._id !== id)
-                    .map((product, i) => (
-                      <ProductCard product={product} key={i} />
-                    ))}
+                {products
+                  .filter((prod) => prod._id !== id)
+                  .map((product, i) => (
+                    <ProductCard product={product} key={i} />
+                  ))}
               </div>
             </div>
-          }
+          )}
         </Fragment>
       )}
     </Fragment>
