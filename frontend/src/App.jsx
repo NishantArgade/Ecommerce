@@ -60,7 +60,8 @@ function App() {
     getStripeApiKey();
   }, []);
 
-  window.addEventListener("contextmenu",(e)=>e.preventDefault());
+  //hide inspect option
+  window.addEventListener("contextmenu", (e) => e.preventDefault());
 
   return (
     <Router>
