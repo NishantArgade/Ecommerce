@@ -51,7 +51,7 @@
 		margin: 1vmax 2vmax;
 	}
 	.cartItemCardBox>div>a{
-		font:300 2vmax cursive;
+		font:300 1.8vmax "Roboto";
 	}
 	.cartItemCardBox>div>span{
 		font: 300 1.9vmax "Roboto";

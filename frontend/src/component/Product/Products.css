@@ -90,6 +90,9 @@
     font: 500 2.4vmax "Roboto";
     width: 24vw;
   }
+  .products {
+    min-height: 40vh;
+  }
 
   .filterBox {
     width: 20vmax;

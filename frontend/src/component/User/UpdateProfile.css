@@ -128,7 +128,7 @@
   }
   #updateProfileImage > input::file-selector-button {
     height: 7vh;
-    font: 400 1.8vmax cursive;
+    font: 400 1.8vmax "Roboto";
   }
   .updateProfileBtn {
     font: 300 1.9vmax "Roboto";
