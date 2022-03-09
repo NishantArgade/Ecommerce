@@ -13,7 +13,7 @@
   flex-wrap: wrap;
   padding: 0 5vmax;
   justify-content: center;
-  min-height: 65vh;
+  min-height: 85vh;
 }
 .paginationBox {
   display: flex;
@@ -65,41 +65,45 @@
   top: 10vmax;
   left: 4vmax;
 }
-.MuiTypography-root{
- font-size:1.1vmax !important ;
+.MuiTypography-root {
+  font-size: 1.1vmax !important ;
 }
 .categoryBox {
-	padding: 0%;
+  padding: 0%;
 }
-.category-link{
-	list-style: none;
-	color: rgba(17, 17, 17, 0.61);
-	font:400 0.9vmax "Roboto";
-	margin: 0.4vmax;
-	cursor: pointer;
-	transition: all 0.5s;
+.category-link {
+  list-style: none;
+  color: rgba(17, 17, 17, 0.61);
+  font: 400 0.9vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.5s;
 }
-.category-link:hover{
-	color: tomato;
+.category-link:hover {
+  color: tomato;
 }
-.filterBox>fieldset{
-	border: 1px solid rgba(0, 0, 0, 0.329);
+.filterBox > fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.329);
 }
 @media screen and (max-width: 600px) {
-	.filterBox {
-		width: 20vmax;
-		position: static;
-		margin: 2vmax auto;
-	}
-	.page-link {
-		font: 300 1.7vmax Roboto;
-	}
-	
-	.MuiTypography-root{
-	 font-size:2.1vmax !important ;
-	}
-	.category-link{
-	  font:400 1.8vmax "Roboto";
+  .productsHeading {
+    font: 500 2.4vmax "Roboto";
+    width: 24vw;
+  }
 
+  .filterBox {
+    width: 20vmax;
+    position: static;
+    margin: 2vmax auto;
+  }
+  .page-link {
+    font: 300 1.7vmax Roboto;
+  }
+
+  .MuiTypography-root {
+    font-size: 2.1vmax !important ;
+  }
+  .category-link {
+    font: 400 2vmax "Roboto";
   }
 }

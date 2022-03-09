@@ -19,3 +19,6 @@ input[type="number"] {
 .redColor {
   color: red !important;
 }
+.MuiTypography-body1 {
+  font:400 0.8rem "Roboto"!important;
+}

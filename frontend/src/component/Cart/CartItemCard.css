@@ -29,7 +29,11 @@
 	font:100 0.8vmax "Roboto";
 	cursor: pointer;
 }
-
+.cartItemCardBox>div{
+		width: 5vmax;
+		height: auto;
+		background-size: cover;
+	}
 @media screen and (max-width:600px) {
 	.cartItemCardBox{
 		padding: 2vmax;
@@ -38,6 +42,7 @@
 		justify-content: space-between;
 
 	}
+
 	.cartItemCardBox>img{
 		width: 10vmax;
 		height:10vmax;

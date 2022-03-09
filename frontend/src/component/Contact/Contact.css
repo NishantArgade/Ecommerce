@@ -10,7 +10,6 @@
   font: 600 2vmax "Roboto";
   padding: 2vmax 0;
   color: rgba(255, 255, 255, 0.993);
-  
 }
 .contactForm {
   width: 35vmax;
@@ -50,7 +49,6 @@
 }
 .textArea > svg {
   align-self: flex-start;
-
 }
 .textArea > textarea {
   height: 8vmax;
@@ -81,8 +79,26 @@
   color: white;
 }
 
-@media screen  and (max-width:600px){
-  .contactForm{
+@media screen and (max-width: 600px) {
+  .contactForm {
     width: 40vmax;
+  }
+  .contactForm > div > input,
+  .textArea > textarea {
+    font: 400 2vmax "Roboto";
+    margin:1.4vmax 0;
+  }
+  .contactForm > div > svg {
+    font-size: 2.5vmax !important;
+    transform: translateX(3.2vmax);
+  }
+
+  .ContactHeading {
+    font: 600 3vmax "Roboto";
+  }
+  #sendBtn {
+    padding: 2vmax 5vmax;
+    font: 400 2vmax "Roboto";
+    margin:3vmax 0;
   }
 }

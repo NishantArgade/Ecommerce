@@ -65,7 +65,9 @@ const ConfirmOrder = () => {
               {cartItems &&
                 cartItems.map((item) => (
                   <div key={item.product}>
-                    <img src={item.image} alt="Product" />
+                    <div className="confirmCartItemImgBlock">
+                      <img src={item.image} alt="Product" />
+                    </div>
                     <Link to={`/product/${item.product}`}>{item.name}</Link>
                     <span>
                       {item.quantity} X ₹{item.price} =

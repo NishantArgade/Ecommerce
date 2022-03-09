@@ -34,6 +34,7 @@
 .detailsBlock-1 > h2 {
   color: rgb(54, 54, 54);
   font: 600 1.6vmax "Roboto";
+  margin:1vmax 0;
 }
 .detailsBlock-1 > p {
   color: rgba(54, 54, 54, 0.582);
@@ -228,6 +229,12 @@ color: rgba(0, 0, 0, 0.452);
 
 }
 @media screen and (max-width: 600px) {
+  .reviewCardComment {
+    font: 300 1.4vmax "Roboto" !important;
+  }
+  .reviewCard > p{
+    font:600 1.5vmax "Roboto";
+  }
   .productDetails {
     flex-direction: column;
     height: unset;
@@ -236,12 +243,14 @@ color: rgba(0, 0, 0, 0.452);
     align-items: center;
   }
   .detailsBlock-1 > h2 {
-    font-size: 2.8vmax;
+    font-size: 2vmax;
     text-align: center;
+    margin:1vmax 0;
   }
   .detailsBlock-1 > p {
     text-align: center;
     font-size: 1vmax;
+    margin:1vmax 0;
   }
   .detailsBlock-2 {
     justify-content: center;
@@ -293,5 +302,11 @@ color: rgba(0, 0, 0, 0.452);
   }
   .carousel .thumbs-wrapper {
     display: none;
+  }
+  .carousel .control-dots {
+    display:none;
+  }
+  .carousel.carousel-slider .control-arrow{
+    display:none;
   }
 }

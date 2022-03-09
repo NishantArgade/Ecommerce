@@ -72,3 +72,19 @@ footer {
   color: white;
   margin: 0.5vmax;
 }
+
+@media screen and (max-width: 600px) {
+  .leftFooter > p {
+    font-size: 1.2vmax;
+  }
+  .midFooter > p {
+    font-size: 1.6vmax;
+  }
+  .rightFooter > h4 {
+    font-size: 1.8vmax;
+    margin: 2vmax 0;
+  }
+  .rightFooter > a {
+    font-size: 1.4vmax;
+  }
+}

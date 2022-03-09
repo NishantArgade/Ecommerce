@@ -61,12 +61,17 @@
   padding-bottom: 0.5vmax;
 }
 
-.productCard > img {
+.productCardImgBlock {
+  background-size: cover;
   width: 14vmax;
-  height:16vmax;
+  height: 14vmax;
+}
+.productCardImgBlock > img {
+  width: 100%;
+  height: 100%;
 }
 
-.productCard > div {
+.productCard > div:last-child {
   margin: 0.5vmax;
   display: flex;
   justify-content: flex-start;
@@ -106,11 +111,11 @@
 .Hamburger > img {
     width: 1.5rem;}
   .banner>p{
-    font:400 1.2vmax "Roboto";
+    font:400 1.6vmax "Roboto";
 
   }
   .banner>h1{
-    font:500 2vmax cursive;
+    font:500 2vmax "Roboto";
   padding: 0.5vmax 0;
   
   }
@@ -136,6 +141,6 @@
   .productCardComment {
     text-align: center;
     color: rgba(0, 0, 0, 0.445) !important;
-    font: 300 0.3vmax cursive !important;
+    font: 300 0.3vmax "Roboto" !important;
   }
 }

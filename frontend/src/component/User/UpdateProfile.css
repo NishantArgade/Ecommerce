@@ -109,13 +109,16 @@
     width: 100vw;
     height: 80vh;
   }
+  .updateProfileHeading{
+    font: 300 2.5vmax "Roboto";
+  }
 
   .updateProfileForm {
     padding: 5vmax;
   }
   .updateProfileForm > div > input {
     padding: 2.5vmax 5vmax;
-    font: 300 1.7vmax cursive;
+    font: 300 2.2vmax "Roboto";
   }
 
   #updateProfileImage > img {

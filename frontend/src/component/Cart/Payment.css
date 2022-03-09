@@ -57,6 +57,7 @@
 @media screen and (max-width: 600px) {
   .paymentForm {
     width: 90%;
+    height:80%;
   }
   .paymentForm > p {
     font: 400 8vw "Roboto";
@@ -75,5 +76,8 @@
   .paymentFormBtn {
     font: 300 4vw "Roboto";
     padding: 4vw;
+  }
+  .paymentContainer{
+    height:90vh;
   }
 }

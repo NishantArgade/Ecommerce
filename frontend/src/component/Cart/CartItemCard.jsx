@@ -6,7 +6,9 @@ const CartItemCard = ({ item, deleteCartItem }) => {
   return (
     <Fragment>
       <div className="cartItemCardBox">
-        <img src={item.image} alt="NotImg" />
+        <div>
+          <img src={item.image} alt="NotImg" />
+        </div>
         <div>
           <Link to={`/product/${item.product}`}>{item.name}</Link>
           <span>{`Price: ₹${item.price}`}</span>

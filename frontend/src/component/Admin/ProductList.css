@@ -61,4 +61,7 @@
   .productListTable div {
     font: 300 4vw "Roboto";
   }
+  #productListHeading{
+    font: 400 1.5rem "Roboto";
+  }
 }

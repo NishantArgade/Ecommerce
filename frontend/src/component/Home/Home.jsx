@@ -90,5 +90,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// 47:03

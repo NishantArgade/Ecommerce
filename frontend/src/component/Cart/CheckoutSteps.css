@@ -10,3 +10,10 @@
 .MuiStepConnector-completed{
 	background-color: tomato!important;
 }
+
+@media screen and (max-width:600px){
+	.stepsContainer p{
+		font-size: 0.8vmax!important;
+
+	}
+}

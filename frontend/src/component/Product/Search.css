@@ -36,18 +36,27 @@
   transition: all 0.5s;
 }
 
-.searchBox > input[type="submit"]:hover{
-	background-color: rgb(228, 75, 28);
+.searchBox > input[type="submit"]:hover {
+  background-color: rgb(228, 75, 28);
 }
 
-@media screen and (max-width:600px){
-  .searchBox > input[type="text"] {
-    width: 55vmax;
-    margin-left: 1vmax;
+@media screen and (max-width: 600px) {
+  .searchBox {
+    flex-direction: column;
+    margin: 5vmax;
   }
-  .searchBox > input[type="submit"]{
+  .searchBox > input[type="text"] {
+    width: 90%;
+    font: 300 2.8vmax "Roboto";
+  }
+  .searchBox > input[type="submit"] {
     width: 15vmax;
-    margin-right: 1vmax;
+    font: 300 3vmax "Roboto";
+    border-radius: 5px;
+    margin:3vmax 0;
+  }
+  .searchBox{
+    margin:0;
   }
 
 }

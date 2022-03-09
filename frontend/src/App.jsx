@@ -60,8 +60,8 @@ function App() {
     getStripeApiKey();
   }, []);
 
-  // window.addEventListener("contextmenu",(e)=>e.preventDefault());
-  
+  window.addEventListener("contextmenu",(e)=>e.preventDefault());
+
   return (
     <Router>
       <Header />
@@ -150,9 +150,11 @@ function App() {
           path="/admin/reviews"
           component={ProductReviews}
         />
-        <Route component={window.location.pathname === "/process/payment"?null:NotFound} />
-
-        
+        <Route
+          component={
+            window.location.pathname !== "/process/payment" && NotFound
+          }
+        />
       </Switch>
 
       <Footer />

@@ -47,14 +47,16 @@
   .productReviewContainer {
     border-left: none;
     border-top: 1px solid rgba(0, 0, 0, 0.158);
-    height:auto;
+    height: auto;
   }
   .productReviewForm > div > input {
     padding: 2.5vmax 5vmax;
-    font: 300 1.7vmax cursive;
+    font: 300 2.4vmax "Roboto";
   }
   .productReviewForm > div > svg {
     font-size: 2.8vmax;
   }
-  
+  .productReviewHeading {
+    font: 300 1.5rem "Roboto";
+  }
 }

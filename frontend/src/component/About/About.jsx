@@ -22,7 +22,7 @@ const About = () => {
               src="https://res.cloudinary.com/dz9ggznzw/image/upload/v1646480161/avatars/jeg5sqtzsgj7knsrpwwz.jpg"
               alt="Founder"
             />
-            <Typography>Nishant Argade</Typography>
+            <p>Nishant Argade</p>
             <Button onClick={visitLinkedin} color="primary">
               Visit Linkedin
             </Button>

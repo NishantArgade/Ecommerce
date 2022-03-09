@@ -85,7 +85,7 @@
 }
   .updateOrderForm > div > select {
     padding: 2.5vmax 5vmax;
-    font: 300 1.7vmax cursive;
+    font: 300 2.2vmax "Roboto";
   }
 
   .updateOrderForm > div > svg {
