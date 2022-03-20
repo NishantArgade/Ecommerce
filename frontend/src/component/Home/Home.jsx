@@ -57,7 +57,7 @@ const Home = () => {
           <div className="HomeContainer">
             <Helmet title="NISHO👜SHOPE" />
             <div className="banner">
-              <p>Welcome to NishoShope</p>
+              <p>Welcome to NishoShop</p>
               <h1>FIND AMAZING PRODUCTS BELOW</h1>
 
               <a href="#container">

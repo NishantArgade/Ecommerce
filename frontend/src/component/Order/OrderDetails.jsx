@@ -28,7 +28,7 @@ const OrderDetails = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Order Details -- NISHOSHOPE" />
+          <MetaData title="Order Details -- NISHOSHOP" />
 
           <div className="orderDetailsPage">
             <div className="orderDetailsContainer">

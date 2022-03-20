@@ -76,7 +76,7 @@ const UpdateProfile = () => {
 
   return (
     <Fragment>
-      <MetaData title="Update Profile -- NISHOSHOPE" />
+      <MetaData title="Update Profile -- NISHOSHOP" />
       <div className="updateProfileContainer">
         <div className="updateProfileBox">
           <h2 className="updateProfileHeading">Update Profile</h2>

@@ -107,7 +107,7 @@ const NewProduct = () => {
 
   return (
     <Fragment>
-      <MetaData title="Create Product -- NISHOSHOPE" />
+      <MetaData title="Create Product -- NISHOSHOP" />
       {loading ? (
         <Loader />
       ) : (

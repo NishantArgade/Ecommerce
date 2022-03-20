@@ -57,7 +57,7 @@ function Header() {
             </div>
           ) : (
             <div className="newUserProfileDiv">
-              <p>Welcome to NishoShope</p>
+              <p>Welcome to NishoShop</p>
               <Link to="/login">Login</Link>
             </div>
           )}

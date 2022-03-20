@@ -41,7 +41,7 @@ const Shipping = () => {
   };
   return (
     <Fragment>
-      <MetaData title="Shipping Details -- NISHOSHOPE" />
+      <MetaData title="Shipping Details -- NISHOSHOP" />
 
       <CheckoutSteps activeStep={0} />
 

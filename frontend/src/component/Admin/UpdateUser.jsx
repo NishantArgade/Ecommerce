@@ -73,7 +73,7 @@ const UpdateUser = () => {
 
   return (
     <Fragment>
-      <MetaData title="Update User -- NISHOSHOPE" />
+      <MetaData title="Update User -- NISHOSHOP" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">

@@ -41,7 +41,7 @@ const Cart = () => {
 
   return (
     <Fragment>
-      <MetaData title="Cart -- NISHOSHOPE" />
+      <MetaData title="Cart -- NISHOSHOP" />
 
       {cartItems.length === 0 ? (
         <div className="emptyCart">

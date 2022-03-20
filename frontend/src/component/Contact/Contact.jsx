@@ -5,24 +5,28 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import PenIcon from "@material-ui/icons/BorderColor";
 import { send } from "emailjs-com";
-import {useAlert} from "react-alert";
-import {useSelector} from "react-redux";
-
+import { useAlert } from "react-alert";
+import { useSelector } from "react-redux";
+import MetaData from "../layout/MetaData";
 import "./Contact.css";
 
 const Contact = () => {
   const alert = useAlert();
   const { isAuthenticated, user } = useSelector((state) => state.user);
-  
-  const [name, setName] = useState(isAuthenticated?user.name:"");
-  const [email, setEmail] = useState(isAuthenticated?user.email:"");
+
+  const [name, setName] = useState(isAuthenticated ? user.name : "");
+  const [email, setEmail] = useState(isAuthenticated ? user.email : "");
   const [phone, setPhone] = useState("");
   const [textMsg, setTextMsg] = useState("");
 
-
   const contactFormHandler = (e) => {
     e.preventDefault();
-    send("service_anit8tl", "template_p75gdzn", { name, email, phone, message:textMsg },"user_ZeuDrRocdlUZk8k3rjA0N")
+    send(
+      "service_anit8tl",
+      "template_p75gdzn",
+      { name, email, phone, message: textMsg },
+      "user_ZeuDrRocdlUZk8k3rjA0N"
+    )
       .then(() => {
         alert.success("Message Send Successfully!");
         setPhone("");
@@ -34,6 +38,8 @@ const Contact = () => {
   };
   return (
     <Fragment>
+      <MetaData title="Contact -- NISHOSHOP" />
+
       <section>
         <div className="contactContainer">
           <form className="contactForm" onSubmit={contactFormHandler}>

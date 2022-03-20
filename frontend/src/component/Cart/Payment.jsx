@@ -110,7 +110,7 @@ const Payment = () => {
 
   return (
     <Fragment>
-      <MetaData title="Payment -- NISHOSHOPE" />
+      <MetaData title="Payment -- NISHOSHOP" />
       <CheckoutSteps activeStep={2} />
 
       <div className="paymentContainer">

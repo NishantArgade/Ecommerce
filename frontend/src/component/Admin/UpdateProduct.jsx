@@ -130,7 +130,7 @@ const UpdateProduct = () => {
 
   return (
     <Fragment>
-      <MetaData title="Update Product -- NISHOSHOPE" />
+      <MetaData title="Update Product -- NISHOSHOP" />
 
       {loading ? (
         <Loader />

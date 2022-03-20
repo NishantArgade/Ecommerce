@@ -43,7 +43,7 @@ const ForgotPassword = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Forgot Password -- NISHOSHOPE" />
+          <MetaData title="Forgot Password -- NISHOSHOP" />
           <div className="forgotPasswordContainer">
             <div className="forgotPasswordBox">
               <h2 className="forgotPasswordHeading">Forgot Profile</h2>

@@ -86,7 +86,7 @@ const Products = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- NISHOSHOPE" />
+          <MetaData title="PRODUCTS -- NISHOSHOP" />
           <h2 className="productsHeading">Products</h2>
           <div className="products">
             {productData.products.length>0 ? (

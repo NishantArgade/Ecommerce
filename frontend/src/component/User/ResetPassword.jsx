@@ -53,7 +53,7 @@ const ResetPassword = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Change Password -- NISHOSHOPE" />
+          <MetaData title="Change Password -- NISHOSHOP" />
           <div className="resetPasswordContainer">
             <div className="resetPasswordBox">
               <h2 className="resetPasswordHeading">Update Profile</h2>

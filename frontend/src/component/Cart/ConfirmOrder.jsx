@@ -36,7 +36,7 @@ const ConfirmOrder = () => {
   };
   return (
     <Fragment>
-      <MetaData title="Confirm Order -- NISHOSHOPE" />
+      <MetaData title="Confirm Order -- NISHOSHOP" />
       <CheckoutSteps activeStep={1} />
 
       <div className="confirmOrderPage">

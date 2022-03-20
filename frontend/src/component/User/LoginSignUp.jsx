@@ -114,7 +114,7 @@ const LoginSignUp = () => {
         <Loader />
       ) : (
         <Fragment>
-           <MetaData title="Login/SignUp -- NISHOSHOPE" />
+           <MetaData title="Login/SignUp -- NISHOSHOP" />
 
           <div className="loginSignUpContainer">
             <div className="loginSignUpBox">
