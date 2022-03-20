@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -11,7 +11,7 @@ const About = () => {
   };
   return (
     <Fragment>
-            <MetaData title="About -- NISHOSHOP" />
+      <MetaData title="About -- NISHOSHOP" />
 
       <div className="aboutSection">
         <div></div>
